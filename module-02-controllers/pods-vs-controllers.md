@@ -71,6 +71,11 @@ Without a controller declaring intent, a Pod has no semantic importance. Kuberne
 
 ### Minimal theory context
 
+What are control loops?
+
+Control loops are systems that automatically regulate a process by continuously comparing what is happening to what should be happening, then making adjustments to reduce the difference.
+They’re fundamental in engineering, biology, economics, and everyday technology.
+
 Kubernetes is built around control loops. Desired state lives in controllers, not in the objects they create.
 
 A Pod created directly expresses no ongoing intent. It is a one-time request, not a contract. Once the request is satisfied, Kubernetes has nothing left to enforce.
