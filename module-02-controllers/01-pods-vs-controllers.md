@@ -117,8 +117,6 @@ Confusing these roles leads directly to incorrect expectations about restarts, r
 
 *End of Experiment 01 — Pods are not the source of truth*
 
-*************
-
 ---
 
 ## Experiment 02 — Deleting Pods does nothing
