@@ -71,10 +71,27 @@ Without a controller declaring intent, a Pod has no semantic importance. Kuberne
 
 ### Minimal theory context
 
+*********
 What are control loops?
 
 Control loops are systems that automatically regulate a process by continuously comparing what is happening to what should be happening, then making adjustments to reduce the difference.
 They’re fundamental in engineering, biology, economics, and everyday technology.
+
+A control loop measures output → compares it to a desired value → adjusts inputs → repeats continuously.
+
+Why control loops matter
+They allow systems to:
+Adapt to disturbances
+Maintain stability
+Reduce human intervention
+Improve efficiency and safety
+Without control loops, modern automation, robotics, aviation, and even biology wouldn’t function reliably.
+
+[ Measure ] → [ Decide ] → [ Act ]
+      ↑                       ↓
+      └──────── Feedback ─────┘
+
+********
 
 Kubernetes is built around control loops. Desired state lives in controllers, not in the objects they create.
 
