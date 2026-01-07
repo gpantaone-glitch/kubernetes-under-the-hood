@@ -87,11 +87,13 @@ Reduce human intervention
 Improve efficiency and safety
 Without control loops, modern automation, robotics, aviation, and even biology wouldn’t function reliably.
 
+<pre>
+
 [ Measure ] → [ Decide ] → [ Act ]
       ↑                       ↓
       └──────── Feedback ─────┘
 
-
+</pre>
 ********
 
 Kubernetes is built around control loops. Desired state lives in controllers, not in the objects they create.
