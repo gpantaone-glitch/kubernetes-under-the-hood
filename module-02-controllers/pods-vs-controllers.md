@@ -91,6 +91,7 @@ Without control loops, modern automation, robotics, aviation, and even biology w
       ↑                       ↓
       └──────── Feedback ─────┘
 
+
 ********
 
 Kubernetes is built around control loops. Desired state lives in controllers, not in the objects they create.
