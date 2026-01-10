@@ -154,20 +154,3 @@ Without this boundary, it becomes impossible to reason about:
 
 Once the boundary is clear, the system becomes predictable.
 
----
-
-## What comes next
-
-With the kernel boundary established, the next step is inevitable:
-
-> **How a Pod is actually connected to the node**
-
-That requires tracing:
-- `eth0`
-- veth pairs
-- routing tables
-- and the node network namespace
-
-Next file:
-
-
