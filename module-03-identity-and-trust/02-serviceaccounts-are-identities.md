@@ -127,7 +127,7 @@ At this moment, the Pod ceases to matter.
 The request is no longer associated with a Pod.  
 It is associated with an identity string:
 
-system:serviceaccount:<namespace>:<name>
+`system:serviceaccount:namespace:name`
 
 
 That string is the security subject.
