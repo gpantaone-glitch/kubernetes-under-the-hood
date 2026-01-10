@@ -16,7 +16,7 @@ It is established **before execution**, during Pod admission.
 
 When the API server accepts a Pod specification, exactly one identity decision is made:
 
-spec.serviceAccountName
+<pre>spec.serviceAccountName</pre>
 
 
 If this field is absent, Kubernetes injects one implicitly.
@@ -127,7 +127,7 @@ At this moment, the Pod ceases to matter.
 The request is no longer associated with a Pod.  
 It is associated with an identity string:
 
-system:serviceaccount:<namespace>:<name>
+<pre>system:serviceaccount:<namespace>:<name></pre>
 
 
 That string is the security subject.
