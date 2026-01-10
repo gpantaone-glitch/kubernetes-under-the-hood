@@ -16,7 +16,7 @@ It is established **before execution**, during Pod admission.
 
 When the API server accepts a Pod specification, exactly one identity decision is made:
 
-<pre>spec.serviceAccountName</pre>
+`spec.serviceAccountName`
 
 
 If this field is absent, Kubernetes injects one implicitly.
